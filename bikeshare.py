@@ -105,7 +105,7 @@ def station_stats(df):
     print ("The most common used end station is : %s" % removeHeaders(df['End Station'].mode() ) )
 
 
-    #Increase Column Width
+    # Increase Column Width
     pd.set_option('display.max_colwidth', 255)
 
     # display most frequent combination of start station and end station trip
